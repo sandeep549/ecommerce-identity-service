@@ -15,7 +15,7 @@ data class StockDTO(
 )
 
 data class OrderItemDTO(
-    val productId: Lone,
+    val productId: Long,
     val quantity: Int,
     val unitPrice: Double? = null
 )
